@@ -2,6 +2,11 @@
 
 Backend for Findit app using Deno and Begin.com
 
+## App URLs
+
+- [Production](https://prism-no5.begin.app)
+- [Staging](https://prism-no5-staging.begin.app)
+
 ## Getting started
 
 - Start the local dev server: `npm start`
