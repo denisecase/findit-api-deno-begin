@@ -15,7 +15,7 @@ Backend for Findit app using Deno and Begin.com
 
 ## Reference
 
-- [Begin.com basic CRUD template](https://github.com/denisecase/findit-api-deno-begin)
+- [Begin.com Deno Crud](https://github.com/begin-examples/deno-crud)
 - [Begin.com Quickstart](https://docs.begin.com/en/guides/quickstart/) - basics on working locally, project structure, deploying, and accessing your Begin app
 - [Begin.com routes](https://docs.begin.com/en/functions/creating-new-functions) - basics on expanding the capabilities of your app
 - [Begin.com Docs](https://docs.begin.com/) to learn more!

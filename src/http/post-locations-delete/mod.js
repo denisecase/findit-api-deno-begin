@@ -1,5 +1,5 @@
 /* global Deno */
-import * as data from 'https://registry.begin.com/findit-api-deno-begin@master/mod.ts'
+import * as data from 'https://registry.begin.com/begin-data@master/mod.ts'
 
 export default async function destroy(req) {
   let searchParams = new URLSearchParams(req.body)
