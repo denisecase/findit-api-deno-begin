@@ -1,7 +1,7 @@
 {
-  "name": "begin-app",
-  "version": "0.0.0",
-  "description": "Begin basic TKTK app",
+  "name": "findit-api-deno-begin",
+  "version": "0.0.1",
+  "description": "API with Deno and Begin.com",
   "scripts": {
     "lint": "echo \"Notice: no linter specified\"",
     "start": "cross-env NODE_ENV=testing npx sandbox",
