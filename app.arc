@@ -1,6 +1,9 @@
 @app
 findit-api-deno-begin
 
+@static
+folder public
+
 @http
 get /todos
 post /todos
