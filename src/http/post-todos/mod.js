@@ -1,4 +1,4 @@
-import * as data from 'https://registry.begin.com/begin-data@master/mod.ts'
+import * as data from 'https://registry.begin.com/findit-api-deno-begin@master/mod.ts'
 
 export default async function create(req) {
   todo.created = todo.created || Date.now()

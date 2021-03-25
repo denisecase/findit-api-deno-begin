@@ -1,12 +1,11 @@
-/* global Deno */
 import * as data from 'https://registry.begin.com/findit-api-deno-begin@master/mod.ts'
 
-export default async function destroy(req) {
-  let searchParams = new URLSearchParams(req.body)
-  let key = searchParams.get('key')
-  await data.destroy({
-    table: 'todos',
-    key
+export default async function create(req) {
+  location.created = location.created || Date.now()
+  location.completed = !!location.completed
+  await data.set({
+    table: 'locations',
+    ...location
   })
   return {
     statusCode: 302,

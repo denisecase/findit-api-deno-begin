@@ -5,7 +5,7 @@ export default async function destroy(req) {
   let searchParams = new URLSearchParams(req.body)
   let key = searchParams.get('key')
   await data.destroy({
-    table: 'todos',
+    table: 'locations',
     key
   })
   return {

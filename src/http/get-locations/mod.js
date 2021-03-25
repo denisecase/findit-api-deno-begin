@@ -1,11 +1,11 @@
 import * as data from 'https://registry.begin.com/findit-api-deno-begin@master/mod.ts'
 
-export default async function todos(req) {
-  let todos = await data.get({
-    table: 'todos'
+export default async function locations(req) {
+  let locations = await data.get({
+    table: 'locations'
   })
-  // Return oldest todo first
-  todos.sort((a, b) => a.created > b.created)
+  // Return oldest location first
+  locations.sort((a, b) => a.created > b.created)
 
   return {
     statusCode: 201,
@@ -14,7 +14,7 @@ export default async function todos(req) {
       'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0'
     },
     body: JSON.stringify({
-      todos
+      locations
     })
   }
 }
