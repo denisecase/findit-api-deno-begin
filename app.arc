@@ -5,6 +5,9 @@ findit-api-deno-begin
 get /todos
 post /todos
 post /todos/delete
+get /locations
+post /locations
+post /locations/delete
 
 @tables
 data
